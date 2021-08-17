@@ -11,8 +11,6 @@
         }
 
         .container div {
-          width: 45%;
-            max-width: 200px;
             box-shadow: 0 0 .5rem grey;
           display: flex;
           justify-content: center;
@@ -22,8 +20,11 @@
         }
 
         .container img {
-            width: 100%;
+            width: 7rem;
+            height: 7rem;
+            object-fit: cover;
             border-radius: 1rem;
+
         }
 
     </style>
@@ -52,7 +53,7 @@
     <div class="text-center my-5">
 
         <a href="{% url 'projectapp:create' %}"
-                class="btn btn-outline-dark rounded-pill px-5">
+                class="btn btn-outline-da rk rounded-pill px-5">
             Create Project
         </a>
     </div>
