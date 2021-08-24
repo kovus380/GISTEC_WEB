@@ -25,7 +25,10 @@ urlpatterns = [
     path('articles/', include('articleapp.urls')),
     path('comments/', include('commentapp.urls')),
     path('projects/', include('projectapp.urls')),
+
     path('subscibes/', include('subscribeapp.urls')),
+    path('likes/', include('likeapp.urls')),
+
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 # 어떤 경로로 요청이 들어왔을 때 / 어디서 파일을 제공해줄건지
