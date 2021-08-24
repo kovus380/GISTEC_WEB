@@ -68,3 +68,13 @@
         font-size: 13px;
     }
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 커서가 올라가 있을 때 */
+a:hover {
+    color: black;
+}
