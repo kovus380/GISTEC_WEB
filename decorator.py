@@ -1,20 +1,3 @@
-
-# def decorator(func): # 인자로 함수를 받음
-#     def decorated():
-#         print("함수 시작!!")
-#         func()
-#         print("함수 끝!!")
-#     return decorated
-#
-# @decorator
-# def hello_world():
-#     print("Hello World")
-#
-#
-# hello_world()
-
-
-
 def check_integer(func):
     def decorated(**kwargs):
         if kwargs['width'] >= 0 and kwargs['height'] >= 0:
